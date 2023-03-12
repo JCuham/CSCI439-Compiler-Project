@@ -42,20 +42,20 @@ C code for translation, symbol table and syntax tree building.
    2) Type make-run to run the executible on testprog.txt
    3) Type make clean to clear the executible and associated output file
 
-   #Run on custom files
+   ## Run on custom files
    1) To build the executible type make
    2) type ./cmm < program.txt
    This will run the compiled on other files besides testprog.txt if you want to run the
    test files for error checking simply type ./cmm < testsbad/filename.txt (badprog1)
    
 ## Sample Output
- # Sample Code Used
+## Sample Code Used
  ![image](https://user-images.githubusercontent.com/58760187/224576044-2af9f885-f4f5-4933-bdfb-ecfb2c4b7b5c.png)
 
- # Symbol Table Generated:
+## Symbol Table Generated:
  ![image](https://user-images.githubusercontent.com/58760187/224575980-19f4e1f4-ebae-4765-a079-25ea6c2ac41d.png)
  
- # X86 Assembly Generated
+## X86 Assembly Generated
  <code>
 section .text
 global_start
