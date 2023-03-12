@@ -47,6 +47,10 @@ C code for translation, symbol table and syntax tree building.
    2) type ./cmm < program.txt
    This will run the compiled on other files besides testprog.txt if you want to run the
    test files for error checking simply type ./cmm < testsbad/filename.txt (badprog1)
+   
+## Sample Output
+ #Symbol Table Generated:
+ 
 
 ## Known Issues and Bugs
 
