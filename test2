@@ -1,0 +1,7 @@
+begin
+
+string x = "test"
+print x
+
+
+end

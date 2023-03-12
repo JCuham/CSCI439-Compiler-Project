@@ -1,0 +1,31 @@
+begin
+	print "HELLO WORLD!"
+	int x = 9
+	string abc = "test1"
+	string xyz = "test2"
+	for int y = 0 y < 10 y+1
+	start
+		print y
+
+		if y > 5
+		start
+			print "y is > 5"
+		done
+		else
+		start
+			print "y is < 5"
+		done
+
+	done
+
+	scan "%s" abc
+	print abc
+	abc = "blah"
+	print abc
+	xyz = "foo"
+	print xyz
+
+
+	print abc
+	print "END PROGRAM"
+end

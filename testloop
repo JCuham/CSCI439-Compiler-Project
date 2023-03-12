@@ -1,0 +1,17 @@
+begin
+
+for int y = 0 y < 10 y+1
+	start
+		print y
+
+		if y > 5
+		start
+			print "y is > 5"
+		done
+		else
+		start
+			print "y is < 5"
+		done
+
+	done
+end
