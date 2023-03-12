@@ -1,6 +1,6 @@
 CSCI 439 FINAL PROJECT (C Minus Minus)
 
-#cmm.exe
+# cmm.exe
 
 The objective of this program is to create a compiler to compile code from a made up language I
 have dubbed C-- to x86 assembly using lex and yacc for parsing and tokenization as well as
@@ -8,13 +8,13 @@ C code for translation, symbol table and syntax tree building.
 
 ## Technologies
 
-   #Languages
+   # Languages
 	C
 	BASH (makefile)
 	LEX (tokenizer)
 	YACC (parsing)
 
-   #C LIBRARIES
+   # C LIBRARIES
    <stdio.h>
    <string.h>
    <stdlib.h>
@@ -22,7 +22,7 @@ C code for translation, symbol table and syntax tree building.
    "y.tab.h"
    "lex.yy.c"
 
-   #FILES
+   # FILES
    lexer.lex
    parser.yacc
    makefile
@@ -30,7 +30,7 @@ C code for translation, symbol table and syntax tree building.
    ProjectProposal.pdf
    README
 
-   #Test files
+   # Test files
    testprog.txt (test program to be compiled when make-run is entered)
    testloop.txt (simple loop test)
    testsbad/badprog1 (undeclared variable test)
