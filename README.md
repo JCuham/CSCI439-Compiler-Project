@@ -52,7 +52,7 @@ C code for translation, symbol table and syntax tree building.
 ## Sample Code Used
  ![image](https://user-images.githubusercontent.com/58760187/224576044-2af9f885-f4f5-4933-bdfb-ecfb2c4b7b5c.png)
 
-## Symbol Table Generated:
+## Symbol Table Generated
  ![image](https://user-images.githubusercontent.com/58760187/224575980-19f4e1f4-ebae-4765-a079-25ea6c2ac41d.png)
  
 ## X86 Assembly Generated
