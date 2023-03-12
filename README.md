@@ -49,8 +49,69 @@ C code for translation, symbol table and syntax tree building.
    test files for error checking simply type ./cmm < testsbad/filename.txt (badprog1)
    
 ## Sample Output
- #Symbol Table Generated:
+ # Sample Code Used
+ ![image](https://user-images.githubusercontent.com/58760187/224576044-2af9f885-f4f5-4933-bdfb-ecfb2c4b7b5c.png)
+
+ # Symbol Table Generated:
+ ![image](https://user-images.githubusercontent.com/58760187/224575980-19f4e1f4-ebae-4765-a079-25ea6c2ac41d.png)
  
+ # X86 Assembly Generated
+ <code>
+section .text
+global_start
+section .data
+x DQ 9
+msg0 DQ "test1", 0 
+len0 equ $ - abc
+msg1 DQ "test2", 0 
+len1 equ $ - xyz
+section .text
+
+_start:
+mov edx,len0
+mov dx,msg0
+mov ebx,1
+mov dx,4
+int 0x80
+mov ecx, 0	;store loop index var on stack
+jmp loop0
+loop0:
+push ecx	;save loop index on stack
+mov ecx, y	;store string to print in ecx
+int 0x80	;print value stored in ecx
+mov edx,len1
+mov dx,msg1
+mov ebx,1
+mov dx,4
+int 0x80
+mov ax, y	;store if LHS COND var in reg
+mov bx, 5	;store if RHS cond var in reg
+cmp ax, bx	;compare if stmt conditions
+jg ifstmt0	;jump if greater than
+ifstmt1:	 ifstmt start label
+mov ecx, "y is > 5"	;store string to print in ecx
+int 0x80	;print value stored in ecx
+pop ecx	;get loop index
+add ecx, 1
+cmp ecx, 10
+jl loop0
+mov ecx, y	;store string to print in ecx
+int 0x80	;print value stored in ecx
+mov ax, y	;store if LHS COND var in reg
+mov bx, 5	;store if RHS cond var in reg
+mov ecx, abc	;store string to print in ecx
+int 0x80	;print value stored in ecx
+mov ecx, abc	;store string to print in ecx
+int 0x80	;print value stored in ecx
+mov ecx, xyz	;store string to print in ecx
+int 0x80	;print value stored in ecx
+mov ecx, abc	;store string to print in ecx
+int 0x80	;print value stored in ecx
+int 0x80	;END PROGRAM CALLS
+mov ebx,0
+mov eax,1
+int 0x80
+</code>
 
 ## Known Issues and Bugs
 
