@@ -1,10 +1,4 @@
 %{
-
-  /*
-    SOURCES:
-https://medium.com/codex/building-a-c-compiler-using-lex-and-yacc-446262056aaa
-*/
-  
   //initial setup
   #include <stdio.h>
   #include <string.h>
