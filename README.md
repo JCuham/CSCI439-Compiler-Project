@@ -42,11 +42,16 @@ C code for translation, symbol table and syntax tree building.
    2) Type make-run to run the executible on testprog.txt
    3) Type make clean to clear the executible and associated output file
 
-   ## Run on custom files
-   1) To build the executible type make
-   2) type ./cmm < program.txt
-   This will run the compiled on other files besides testprog.txt if you want to run the
-   test files for error checking simply type ./cmm < testsbad/filename.txt (badprog1)
+  ## Making your own programs
+   1) To build the executible type "make"
+   2) type ./cmm < "your_program.txt"
+   This will run the CMM compiler on "your_program.txt" and compile your code to x86 assembly, if you want to compile your
+   code with error checking simply type ./cmm < testsbad/"your_program.txt" (badprog1)
+
+   ## Compiler Tests
+   1) To build the executible type "make"
+   2) type ./cmm < testsbad/...
+   This will run the compiler on programs with syntax/logical errors from the "testsbad" directory. These programs demonstrate the error handling capabilities of the compiler.
    
 ## Sample Output
 ## Sample Code Used
