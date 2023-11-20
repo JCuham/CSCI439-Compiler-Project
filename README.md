@@ -46,7 +46,7 @@ C code for translation, symbol table and syntax tree building.
    1) To build the executible type "make"
    2) type ./cmm < "your_program.txt"
    This will run the CMM compiler on "your_program.txt" and compile your code to x86 assembly, if you want to compile your
-   code with error checking simply type ./cmm < testsbad/"your_program.txt" (badprog1)
+   code with error checking simply type ./cmm < testsbad/"your_program.txt"
 
    ## Compiler Tests
    1) To build the executible type "make"
