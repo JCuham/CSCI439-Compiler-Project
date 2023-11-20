@@ -53,7 +53,7 @@ C code for translation, symbol table and syntax tree building.
    2) type ./cmm < testsbad/...
    This will run the compiler on programs with syntax/logical errors from the "testsbad" directory. These programs demonstrate the error handling capabilities of the compiler.
    
-## Sample Output
+# Testing
 ## Sample Code Used
  ![image](https://user-images.githubusercontent.com/58760187/224576044-2af9f885-f4f5-4933-bdfb-ecfb2c4b7b5c.png)
 
