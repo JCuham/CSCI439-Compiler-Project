@@ -134,9 +134,6 @@ int 0x80
    if statement scope and general code block statements.
 
 # Sources
-I pulled some inspiration from this implementation of a C compiler
-https://medium.com/codex/building-a-c-compiler-using-lex-and-yacc-446262056aaa
-
 x86 assembly guide and resources
 https://docs.oracle.com/cd/E19253-01/817-5477/817-5477.pdf
 https://en.wikibooks.org/wiki/X86_Assembly/Interfacing_with_Linux
