@@ -128,9 +128,9 @@ int 0x80
    are unimplemented. BOOL types are untested and code generation for bool types are currently not implemented.
 
    There is also an issue with the parsing as statements in scope of a for loop or if statement
-   are generated twice in assembly and sometimes with the wrong label number. I will either need to add a element 
+   are generated twice in assembly and sometimes with the wrong label number. I will either need to add an element 
    to each tree node to keep track of the current scope and change my generate code functions to
-   generate based on scope, Or make separate code generation functions for statements within loop and
+   generate based on scope, Or make separate code generation functions for statements within the loop and
    if statement scope and general code block statements.
 
 # Sources
